@@ -1,0 +1,7 @@
+#! /usr/bin/env ruby
+
+require 'pg'
+require_relative 'expense_data'
+require_relative 'cli'
+
+CLI.new.run(ARGV)
